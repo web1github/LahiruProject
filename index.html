@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>HTML Template</title>
+<meta charset="utf-8">
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: right-side;
+  font-size: 20px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+  height: 1200px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 1200px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: right-side;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+
+<body>
+	<header>
+	<table border="2" bgcolor ="#9ACD32" cellpadding="10" cellspacing="0">
+		<h2><center><u>BIO DATA</u></h2>
+		<tr>
+			<td rowspan="4"><img src="Image/Bio Data.jpg" width="250" alt="_profile_pic"/></td>
+			<td rowspan="4"><p class="regular"><p style="font-size:20px;"></p><b><u>WEB DESINGER</u></b></p>
+			<ul>
+				<li>F5,Sumanasiri Niwasa, <wbr/>Ambagala,Warakapola <br/>Sri Lanka</li>
+				<li>+8180 38539698</li>
+				<li>www.lahiruJayarathna.com</li>
+				<li><a href="mailto:lahiruijr@gmail.com">lahiruijr@gmail.com</a></li>
+			</ul>
+			</td>
+			<td rowspan="4"><p class="regular"><p style="font-size:20px;"></p><b><u>PERSONAL DETAILS</u></b></p>
+			<ul>
+				<li>Full Name : Jalath Ralalage Lahiru Ishara </wbr>Jayarathna</li>
+				<li>Nationality : Sri Lankan</li>
+				<li>Date of Birth : 1991-5-27</li>
+				<li>Civil Status : Married</li>
+				<li>Driving License : Available</li>
+			</ul>
+			</td>
+			</tr>
+	</table>
+	</header>
+	<section>
+		<nav>
+			<p class="regular"><p style="font-size:20px;"></p><b><u>FOLLOW ME</u></b></p><hr>
+			<ul>
+				<li><a href="https://m.facebook.com/lahiruishara.jayarathna">FACE BOOK</a></li><hr>
+				<li><a href="https://www.youtube.com/channel/UCiWdIQVSV-nETDOIX7AemVQ/">YOU TUBE</a></li><hr>
+				<li><a href="https://www.w3schools.com/">TWITTER</a></li><hr>
+				<li><a href="https://www.w3schools.com/">LINKEDIN</a></li>
+			</ul>
+			<hr/>
+			<p class="regular"><p style="font-size:20px;"></p><b><u>FIND ME</u></b></p><hr>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3265.4567358661066!2d135.74408826483347!3d35.07031918034135!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6001a87124bf7347%3A0x6f31b4e178ae7614!2s603-8027!5e0!3m2!1sen!2sjp!4v1611648350371!5m2!1sen!2sjp" width="350" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+			<hr>
+			<p class="regular"><p style="font-size:20px;"></p><b><u>SUBSCRIBE ME</u></b></p>
+			<iframe width="360" height="225" src="https://www.youtube.com/embed/e9wfx2YdyaA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<iframe width="360" height="225" src="https://www.youtube.com/embed/NMsyB3xUSLA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</nav>
+	<article>
+			<p class="regular"><p style="font-size:20px;"></p><h1><b><u>PROFILE</u></b></h1></p>
+			<ul>
+				<li>Naval Officer  Sri Lanka Navy.</li>
+				<li>Studding in <a href="https://en.wikipedia.org/wiki/The_Kyoto_College_of_Graduate_Studies_for_Informatics">The Kyoto College of Graduate Studies for Informatics</a></li>
+				<li>Specialized in Navigation and Ship handling.</li>
+				<li>Skilled at conducting inspections,documentation and training.</li>
+				<li>Proven ability to develop and lead a team in achieving operational, maintenance, and web security results.</li>
+				<hr/>
+			</ul>
+			<p class="regular"><p style="font-size:20px;"></p><b><u>PROFESSIONAL EXPERIENCE AND QUALIFICATIONS</u></b></p>
+			<p>Naval Officer</br>Sri lanka Navy</br>June 2012 - 2020</p>
+			<ul>
+				<li>Well experienced Supervisor on communication system/man power </wbr>and work Administration.</li>
+				<li>Well experienced in managing the following activities</li>
+			</ul>
+			<ul>
+				<li>HTML - 80%</li><meter id="HTML" value="8" min="0" max=10>8 out of 10</meter>
+				<li>CSS - 70%</li><meter id="CSS" value="7" min="0" max=10>7 out of 10</meter>
+				<li>JAVA - 60%</li><meter id="JAVA" value="6" min="0" max=10>6 out of 10</meter>
+				<li>MS OFFICE - 40%</li><meter id="MS OFFICE" value="4" min="0" max=10>4 out of 10</meter>
+			</ul>
+			<hr/>
+			<p class="regular"><p style="font-size:20px;"></p><b><u>ACADEMIC QUALIFICATIONS</u></b></p>
+			<dl>
+				<dt>GCE Advanced Level Examination in Science Stream (Biology)</dt>
+				<dd>-Ke/ Dudley Senanayake Central College (2010)</dd><br/>
+				<dt>National Certificate in English (N.C.E)</dt>
+				<dd>-Ke/Technical College (2011-2012)</dd><br/>
+				<dt>BSc (Naval & Maritime Studies)</dt>
+				<dd>-Kothalawala Defense University - Sri Lanka (2012-2017)</dd>
+			</dl>
+			<hr/>
+			<p class="regular"><p style="font-size:20px;"></p><b><u>AWARDS AND ACHIEVEMENTS</u></b></p>
+			<ul>
+				<li>All Island Long Sea Swimming player - Sri Lanka</li>
+			</ul>
+			<hr/>
+			<p class="regular"><p style="font-size:20px;"></p><b><u>PERSONAL DETAILS</u></b></p>
+			<ul>
+				<li>Full Name : Jalath Ralalage Lahiru Ishara Jayarathna</li>
+				<li>Nationality : Sri Lankan</li>
+				<li>Date of Birth : 1991-5-27</li>
+				<li>Civil Status : Married</li>
+				<li>Driving License : Available</li>
+			</ul>
+			<hr/>
+			<p class="regular"><p style="font-size:20px;"></p><b><u>LANGUAGE PROFICIENCY</u></b></p>
+			<ul>
+				<li>SINHALA - 100%</li><meter id="SINHALA" value="10" min="0" max=10>10 out of 10</meter>
+				<li>ENGLISH - 80%</li><meter id="ENGLISH" value="8" min="0" max=10>8 out of 10</meter>
+				<li>JAPANESE - 20%</li><meter id="JAPANESE" value="2" min="0" max=10>2 out of 10</meter>
+			</ul>
+	</article>
+	</section>
+
+	<footer>
+			<p class="regular"><center><p style="font-size:20px;"></p><b><u>INTERESTS</u></b></p>
+			<p>Music</p>
+			<p>Photography</p>
+			<p>Traveling</p>
+			<hr/>
+		<table border="2" bgcolor ="#9ACD32" cellpadding="10" cellspacing="0">
+			<p class="regular"><p style="font-size:20px;"></p><b><u>NON RELATED REFFERENCE</u></b></p>
+			<tr>
+				<td width="1000" colspan="2"><center><b>Mrs.Geethanjali Gunasekara</b></td>
+				<td width="1000"colspan="2"><center><b>Mrs.Ramani Oshadhi Nissanka</b></td>
+			</tr>
+			<tr>
+				<td>Sri Lanka</td>
+				<td>Japan</td>
+				<td>Sri Lanka</td>
+				<td>Japan</td>
+			</tr>
+			<tr>
+				<td>Mobile : +9471 800 1464</td>
+				<td rowspan="2">Mobile : 08012345789</td>
+				<td>Mobile :+9477 376 0433</td>
+				<td rowspan="2">Mobile : 08012345789</td>
+			</tr>
+			<tr>
+				<td>Mobile : +9471 800 1464</td>
+				<td>Mobile :+9477 376 0433</td>
+			</tr>
+		</table><br/>
+		<center><b><em>I do hereby certify that all information stated above is true and accurate for the best of my knowledge.</em></b></center-right>
+	</footer>
+
+</body>
+</html>
